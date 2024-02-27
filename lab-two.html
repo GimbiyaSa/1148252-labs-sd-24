@@ -4,22 +4,43 @@
         <style>
             .header {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
-                padding: 20px;
                 background-color: black;
                 color: white;
-}
-            h3 {
-                color: blue;
-                font-family: verdana;
-                f0nt-size: 300%;
             }
-            p {
-                color: red;
-                font-family: courier;
-                font-size: 160%;
+            
+            .footer {
+                display: flex;
+                justify-content: space-around;
+                background-color: black;
+                color: white;
+                font-size: small;
             }
+
+
+            .about-us {
+                display: flex;
+                justify-content: space-around;
+                
+            }
+
+            .our-services {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                flex-direction: row;
+                padding-bottom: 50px;
+            }
+
+
+            .main-headings {
+                display: flex;
+                justify-content: space-around;
+                color: black;
+            }
+
+
         </style>
 
     </head>
@@ -36,28 +57,29 @@
         </header>
         
         <main>
-            <section class="top-section">
-                <h3>About us</h3>
-                <p>We are a company dedicated to providing excellent services to our customers</p>
-                <picture>
+            <section>
+                <h3 class="main-headings">About us</h3>
+                <p class="main-headings">We are a company dedicated to providing excellent services to our customers</p>
+                <picture class="about-us">
                     <img src="about-us.jpg" alt="About Us" style="height: 400px; width: 600px;">
                   </picture>
             </section>
-        
-            <section>
+            
+            <h3 class="main-headings">Our Services</h3>
+
+            <section class="our-services">
               
-                <h3>Our Services</h3>
-                <section class="bottom-section">
-                    <h3>Web Development</h3> 
-                    <p>We specialise in creating responsive and user-friendly websites</p>
+                <section>
+                    <h3 class="main-headings">Web Development</h3> 
+                    <p class="main-headings">We specialise in creating responsive and user-friendly websites</p>
                     <picture>
                         <img src="web-development.jpg" alt="Web Development" style="height: 400px; width: 600px;">
                       </picture>
                 </section>
         
-                <section class="bottom-section">
-                    <h3>Graphic Design</h3> 
-                    <p>Our talendted designers can bring your ideas to life with stunning visuals</p>
+                <section>
+                    <h3 class="main-headings">Graphic Design</h3> 
+                    <p class="main-headings">Our talented designers can bring your ideas to life with stunning visuals</p>
                     <picture>
                         <img src="graphic-design.jpg" alt="Graphic Design" style="height: 400px; width: 600px;">
                       </picture>
