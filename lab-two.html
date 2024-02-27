@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: black;
+                color: white;
+            }
+            
+            .footer {
+                display: flex;
+                justify-content: space-around;
+                background-color: black;
+                color: white;
+                font-size: small;
+            }
+
+
+            .about-us {
+                display: flex;
+                justify-content: space-around;
+                
+            }
+
+            
+
+            .services-container {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                gap: 10px;
+                padding-bottom: 50px;
+            }
+
+            .service-items {
+               background-color: aqua;
+            }
+
+            
+            .main-headings {
+                display: flex;
+                justify-content: space-around;
+                color: black;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <header class="header">
+            <h2>Welcome to Software Design Website</h2>
+            <nav>
+                <a >About us</a> 
+                <a>Services</a> 
+                <a>Contact us</a> 
+              </nav>
+            
+        </header>
+        
+        <main>
+            <section>
+                <h3 class="main-headings">About us</h3>
+                <p class="main-headings">We are a company dedicated to providing excellent services to our customers</p>
+                <picture class="about-us">
+                    <img src="about-us.jpg" alt="About Us" style="height: 400px; width: 600px;">
+                  </picture>
+            </section>
+            
+            <h3 class="main-headings">Our Services</h3>
+
+            <section class="services-container">
+              
+                <section class="service-items">
+                    <h3 class="main-headings">Web Development</h3> 
+                    <p class="main-headings">We specialise in creating responsive and user-friendly websites</p>
+                    <picture>
+                        <img src="web-development.jpg" alt="Web Development" style="height: 400px; width: 600px;">
+                      </picture>
+                </section>
+        
+                <section class="service-items">
+                    <h3 class="main-headings">Graphic Design</h3> 
+                    <p class="main-headings">Our talented designers can bring your ideas to life with stunning visuals</p>
+                    <picture>
+                        <img src="graphic-design.jpg" alt="Graphic Design" style="height: 400px; width: 600px;">
+                      </picture>
+                </section>
+        
+            </section>
+        
+        </main>
+        
+        <footer class="footer">
+            <p>&copy 2024 The Gimbiya Company. All rights reserved</p>
+        
+        </footer>
+    </body>
+</html>
